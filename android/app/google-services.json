@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "737549102126",
+    "firebase_url": "https://learn-angular-e65e6-default-rtdb.firebaseio.com",
+    "project_id": "learn-angular-e65e6",
+    "storage_bucket": "learn-angular-e65e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737549102126:android:bc19a099fd66f53e8003bf",
+        "android_client_info": {
+          "package_name": "com.googlesignin.ionic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "737549102126-halssf6r76tpd46ho9olspjt0ablier7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.googlesignin.ionic",
+            "certificate_hash": "0eca0e469b8cfa0e1853a2c9d302d0707b2db195"
+          }
+        },
+        {
+          "client_id": "737549102126-9sc3qi5nbg2ae9llnm8t6imfm7q57ei4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJotOuxiNgxDRFW0TVa-dVn8dCudNIijU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "737549102126-9sc3qi5nbg2ae9llnm8t6imfm7q57ei4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

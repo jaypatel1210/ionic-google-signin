@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Ionic Google</string>
+    <string name="title_activity_main">Ionic Google</string>
+    <string name="package_name">com.googlesignin.ionic</string>
+    <string name="custom_url_scheme">com.googlesignin.ionic</string>
+    <string name="server_client_id">737549102126-9sc3qi5nbg2ae9llnm8t6imfm7q57ei4.apps.googleusercontent.com</string>
+</resources>

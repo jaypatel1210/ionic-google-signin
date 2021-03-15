@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "learn-angular-e65e6": {
+      "hosting": {
+        "app": [
+          "learn-angular-e65e6"
+        ]
+      }
+    }
+  }
+}

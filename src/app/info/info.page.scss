@@ -1,0 +1,17 @@
+h3{
+    ion-skeleton-text{
+        height: 30px;
+    }
+}
+ion-label{
+    h3 {
+      ion-skeleton-text {
+        height: 20px;
+      }
+    }
+    p{
+        ion-skeletion-text{
+            height: 15px;
+        }
+    }
+}

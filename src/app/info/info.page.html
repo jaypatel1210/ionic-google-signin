@@ -1,0 +1,54 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title *ngIf="userInfo">
+      {{ userInfo.dname }}
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="ion-padding" *ngIf="userInfo; else showLoading">
+    <ion-list *ngIf="userInfo">
+        <h3 class="ion-padding-start">User Info</h3>
+        <ion-item>
+          <ion-avatar slot="start">
+            <img [src]="userInfo.photourl">
+          </ion-avatar>
+          <ion-label>
+            <h3>{{ userInfo.dname }}</h3>
+            <p>{{ userInfo.gmail }}</p>
+          </ion-label>
+        </ion-item>
+    </ion-list>
+  </div>
+
+  <ng-template #showLoading>
+    <ion-list>
+        <h3 class="ion-padding-start">
+          <ion-skeleton-text animated style="width: 40%"></ion-skeleton-text>
+        </h3>
+        <ion-item>
+          <ion-avatar slot="start">
+            <ion-skeleton-text animated style="width: 100%"></ion-skeleton-text>
+          </ion-avatar>
+          <ion-label>
+            <h3>
+              <ion-skeleton-text animated style="width: 40%"></ion-skeleton-text>
+            </h3>
+            <p>
+              <ion-skeleton-text animated style="width: 60%"></ion-skeleton-text>
+            </p>
+          </ion-label>
+        </ion-item>
+    </ion-list>
+  </ng-template>
+</ion-content>
+<ion-footer class="ion-no-border">
+  <ion-toolbar color="primary">
+    <ion-title (click)="signOut()">
+      <div class="ion-text-center">
+        Sign Out
+      </div>
+    </ion-title>
+  </ion-toolbar>
+</ion-footer>
