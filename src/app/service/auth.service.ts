@@ -29,6 +29,7 @@ export class AuthService {
     // uid, displayName, photoURL, email
   }
   updateData(user): Promise<any> {
+    console.log(user);
     const userRef: AngularFirestoreDocument<User> = this.afs.doc(
       `users/${user.uid}`
     );
