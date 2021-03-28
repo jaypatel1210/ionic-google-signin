@@ -23,6 +23,7 @@ npx cap update
     <string name="title_activity_main">Ionic Google</string>
     <string name="package_name">com.googlesignin.ionic</string>
     <string name="custom_url_scheme">com.googlesignin.ionic</string>
-    _<string name="server_client_id">REPLACEME.apps.googleusercontent.com</string>_
+
+    <string name="server_client_id">REPLACEME.apps.googleusercontent.com</string> // <- Add this line
 </resources>
 ```
